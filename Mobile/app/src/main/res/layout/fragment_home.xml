@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonview" />
+
+        <Button
+            android:id="@+id/buttonview"
+            android:layout_width="171dp"
+            android:layout_height="39dp"
+            android:text="上海旅遊景點介紹"
+            app:layout_constraintBottom_toTopOf="@+id/text_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonway"
+            app:layout_constraintTop_toBottomOf="@+id/buttonticket" />
+
+        <Button
+            android:id="@+id/buttonpopular"
+            android:layout_width="197dp"
+            android:layout_height="41dp"
+            android:text="上海 10 條熱門觀光路線推薦"
+            app:layout_constraintBottom_toTopOf="@+id/buttonway"
+            app:layout_constraintEnd_toStartOf="@+id/buttonticket"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonstdc" />
+
+        <Button
+            android:id="@+id/buttonticket"
+            android:layout_width="155dp"
+            android:layout_height="47dp"
+            android:text="票價及優惠資訊"
+            app:layout_constraintBottom_toTopOf="@+id/buttonview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonpopular"
+            app:layout_constraintTop_toBottomOf="@+id/buttonstdc" />
+
+        <Button
+            android:id="@+id/buttonway"
+            android:layout_width="164dp"
+            android:layout_height="38dp"
+            android:text="dsfgdsf"
+            app:layout_constraintBottom_toTopOf="@+id/text_home"
+            app:layout_constraintEnd_toStartOf="@+id/buttonview"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonpopular" />
+
+        <Button
+            android:id="@+id/buttonstdc"
+            android:layout_width="360dp"
+            android:layout_height="49dp"
+            android:text="上海旅遊集散中心（STDC）簡介"
+            app:layout_constraintBottom_toTopOf="@+id/buttonticket"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

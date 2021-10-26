@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">STDCApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">STDC APP 一點通</string>
+    <string name="nav_header_subtitle">主選單</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">首頁</string>
+    <string name="menu_gallery">旅遊購票區</string>
+    <string name="menu_slideshow">會員管理區sdfsadf</string>
+    <string name="menu_login">會員登入</string>
+    <string name="menu_error">離線</string>
+</resources>
